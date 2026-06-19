@@ -1,0 +1,7 @@
+Task,Model,SHAP time,LIME time,Faster,Agreement,SHAP stable,LIME stable
+Classification,Random Forest,0.21s,3.98s,SHAP,78%,✓ Yes,✗ No
+Classification,XGBoost,0.03s,2.06s,SHAP,75%,✓ Yes,✗ No
+Classification,Logistic Reg.,0.79s,2.00s,SHAP,81%,✓ Yes,✗ No
+Regression,Random Forest,26.28s,2.31s,LIME,72%,✓ Yes,✗ No
+Regression,XGBoost,0.06s,0.39s,SHAP,65%,✓ Yes,✗ No
+Regression,Linear Reg.,0.64s,0.35s,LIME,75%,✓ Yes,✗ No
